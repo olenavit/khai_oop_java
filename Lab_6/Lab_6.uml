@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/Алёна/IdeaProjects/khai_oop_java/Lab_6/src/main/java/ua</OriginalElement>
+  <nodes>
+    <node x="-16.0" y="413.0">ua.Main</node>
+    <node x="249.0" y="338.0">ua.HistoryBook</node>
+    <node x="-110.5" y="165.0">ua.Book.BookPrinting</node>
+    <node x="449.0" y="230.5">ua.Magazine</node>
+    <node x="242.5" y="79.0">ua.Publication</node>
+    <node x="43.0" y="338.0">ua.MysteryBook</node>
+    <node x="-196.0" y="326.0">ua.ArtBook</node>
+    <node x="31.0" y="230.5">ua.Book.Book</node>
+    <node x="229.5" y="219.5">ua.Crossword</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ua.MysteryBook" target="ua.Book.Book" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ua.ArtBook" target="ua.Book.Book" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="-118.5" y="215.0" />
+      <point x="111.0" y="215.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ua.Book.Book" target="ua.Book.BookPrinting" relationship="REALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="111.0" y="134.25" />
+      <point x="-44.5" y="134.25" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ua.Crossword" target="ua.Publication" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="ua.Book.Book" target="ua.Publication" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="111.0" y="202.0" />
+      <point x="309.5" y="202.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="ua.Magazine" target="ua.Publication" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="525.5" y="202.0" />
+      <point x="309.5" y="202.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="ua.HistoryBook" target="ua.Book.Book" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="314.5" y="306.0" />
+      <point x="111.0" y="306.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="324.0" y="230.0" />
+  <SelectedNodes>
+    <node>ua.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
